@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest", "RepositoryPatternMyTest\RepositoryPatternMyTest.csproj", "{133B2657-BB85-462F-9DAC-0B3DB93AC82C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest.ConsoleTest", "RepositoryPatternMyTest\RepositoryPatternMyTest.ConsoleTest.csproj", "{133B2657-BB85-462F-9DAC-0B3DB93AC82C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest.Infrastructure", "RepositoryPatternMyTest.Infrastructure\RepositoryPatternMyTest.Infrastructure.csproj", "{8B0026B1-7924-49D7-81D3-530250C8BBC5}"
 EndProject
@@ -15,11 +15,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest.ORM
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FED082F6-5CBB-476E-9CCF-D5CDAE09DF7C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceLayer", "ServiceLayer", "{CC281E69-25BA-4624-9E5E-83B90CF63CEF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{CC281E69-25BA-4624-9E5E-83B90CF63CEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest.Services", "RepositoryPatternMyTest.Services\RepositoryPatternMyTest.Services.csproj", "{86B9FADC-9A4B-4443-AB13-C87FB703443F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest.Services.Tests", "RepositoryPatternMyTest.Services.Tests\RepositoryPatternMyTest.Services.Tests.csproj", "{E75F8BF7-D6F8-47CA-B43B-1DA3707DC3AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2A24BE8E-EAE4-44BA-9FBD-F80E162C4020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{EAF86392-0677-4F95-A318-57C7FEC3050F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,5 +67,8 @@ Global
 		{8B0026B1-7924-49D7-81D3-530250C8BBC5} = {FED082F6-5CBB-476E-9CCF-D5CDAE09DF7C}
 		{86B9FADC-9A4B-4443-AB13-C87FB703443F} = {CC281E69-25BA-4624-9E5E-83B90CF63CEF}
 		{E75F8BF7-D6F8-47CA-B43B-1DA3707DC3AA} = {CC281E69-25BA-4624-9E5E-83B90CF63CEF}
+		{5078795F-6985-40CC-AEC5-1F833A5DA855} = {EAF86392-0677-4F95-A318-57C7FEC3050F}
+		{7B5F6053-68B5-4B63-BF69-90340AFACE83} = {EAF86392-0677-4F95-A318-57C7FEC3050F}
+		{D8783011-B16A-4B55-959F-E9A85063ADCC} = {EAF86392-0677-4F95-A318-57C7FEC3050F}
 	EndGlobalSection
 EndGlobal
