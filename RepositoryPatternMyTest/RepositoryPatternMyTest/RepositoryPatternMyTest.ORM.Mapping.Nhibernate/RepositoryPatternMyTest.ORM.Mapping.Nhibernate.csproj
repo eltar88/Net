@@ -48,16 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddressMap.cs" />
-    <Compile Include="CustomerMap.cs" />
-    <Compile Include="EmployeeMap.cs" />
-    <Compile Include="LineItemMap.cs" />
-    <Compile Include="MyBoolConvention.cs" />
-    <Compile Include="MyForeignKeyConvention.cs" />
-    <Compile Include="MyIdConvention.cs" />
-    <Compile Include="NameMap.cs" />
-    <Compile Include="OrderMap.cs" />
-    <Compile Include="ProductMap.cs" />
+    <Compile Include="NhibernateMappings\AddressMap.cs" />
+    <Compile Include="NhibernateMappings\CustomerMap.cs" />
+    <Compile Include="NhibernateMappings\EmployeeMap.cs" />
+    <Compile Include="NhibernateMappings\LineItemMap.cs" />
+    <Compile Include="NhibernateMappings\MyBoolConvention.cs" />
+    <Compile Include="Conventions\MyForeignKeyConvention.cs" />
+    <Compile Include="Conventions\MyIdConvention.cs" />
+    <Compile Include="NhibernateMappings\NameMap.cs" />
+    <Compile Include="NhibernateMappings\OrderMap.cs" />
+    <Compile Include="NhibernateMappings\ProductMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,6 +8,7 @@ using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
 using RepositoryPatternMyTest.DomainModel;
 using RepositoryPatternMyTest.ORM.Mapping.Nhibernate;
+using RepositoryPatternMyTest.ORM.Mapping.Nhibernate.NhibernateMappings;
 using RepositoryPatternMyTest.ORM.Nhibernate;
 
 namespace RepositoryPatternMyTest
