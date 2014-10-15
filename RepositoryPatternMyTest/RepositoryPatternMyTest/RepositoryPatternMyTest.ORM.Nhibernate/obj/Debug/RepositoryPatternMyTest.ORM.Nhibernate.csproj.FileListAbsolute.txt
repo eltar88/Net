@@ -37,3 +37,16 @@ E:\Test projects\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatte
 E:\Test projects\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\obj\Debug\RepositoryPatternMyTest.ORM.Nhibernate.csprojResolveAssemblyReference.cache
 E:\Test projects\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\obj\Debug\RepositoryPatternMyTest.ORM.Nhibernate.dll
 E:\Test projects\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\obj\Debug\RepositoryPatternMyTest.ORM.Nhibernate.pdb
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\RepositoryPatternMyTest.ORM.Nhibernate.dll
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\RepositoryPatternMyTest.ORM.Nhibernate.pdb
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\FluentNHibernate.dll
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\Iesi.Collections.dll
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\NHibernate.dll
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\RepositoryPatternMyTest.Infrastructure.dll
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\RepositoryPatternMyTest.Infrastructure.pdb
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\FluentNHibernate.xml
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\Iesi.Collections.xml
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\bin\Debug\NHibernate.xml
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\obj\Debug\RepositoryPatternMyTest.ORM.Nhibernate.csprojResolveAssemblyReference.cache
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\obj\Debug\RepositoryPatternMyTest.ORM.Nhibernate.dll
+C:\Personal projects\Net\RepositoryPatternMyTest\RepositoryPatternMyTest\RepositoryPatternMyTest.ORM.Nhibernate\obj\Debug\RepositoryPatternMyTest.ORM.Nhibernate.pdb
