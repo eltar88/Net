@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest", "RepositoryPatternMyTest\RepositoryPatternMyTest.csproj", "{133B2657-BB85-462F-9DAC-0B3DB93AC82C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest.Infrastructure", "RepositoryPatternMyTest.Infrastructure\RepositoryPatternMyTest.Infrastructure.csproj", "{8B0026B1-7924-49D7-81D3-530250C8BBC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest.ORM.Nhibernate", "RepositoryPatternMyTest.ORM.Nhibernate\RepositoryPatternMyTest.ORM.Nhibernate.csproj", "{5078795F-6985-40CC-AEC5-1F833A5DA855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest.DomainModel", "RepositoryPatternMyTest.DomainModel\RepositoryPatternMyTest.DomainModel.csproj", "{D8783011-B16A-4B55-959F-E9A85063ADCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternMyTest.ORM.Mapping.Nhibernate", "RepositoryPatternMyTest.ORM.Mapping.Nhibernate\RepositoryPatternMyTest.ORM.Mapping.Nhibernate.csproj", "{7B5F6053-68B5-4B63-BF69-90340AFACE83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FED082F6-5CBB-476E-9CCF-D5CDAE09DF7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceLayer", "ServiceLayer", "{CC281E69-25BA-4624-9E5E-83B90CF63CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{133B2657-BB85-462F-9DAC-0B3DB93AC82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133B2657-BB85-462F-9DAC-0B3DB93AC82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133B2657-BB85-462F-9DAC-0B3DB93AC82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133B2657-BB85-462F-9DAC-0B3DB93AC82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0026B1-7924-49D7-81D3-530250C8BBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0026B1-7924-49D7-81D3-530250C8BBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0026B1-7924-49D7-81D3-530250C8BBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0026B1-7924-49D7-81D3-530250C8BBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5078795F-6985-40CC-AEC5-1F833A5DA855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5078795F-6985-40CC-AEC5-1F833A5DA855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5078795F-6985-40CC-AEC5-1F833A5DA855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5078795F-6985-40CC-AEC5-1F833A5DA855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8783011-B16A-4B55-959F-E9A85063ADCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8783011-B16A-4B55-959F-E9A85063ADCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8783011-B16A-4B55-959F-E9A85063ADCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8783011-B16A-4B55-959F-E9A85063ADCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5F6053-68B5-4B63-BF69-90340AFACE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5F6053-68B5-4B63-BF69-90340AFACE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5F6053-68B5-4B63-BF69-90340AFACE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5F6053-68B5-4B63-BF69-90340AFACE83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B0026B1-7924-49D7-81D3-530250C8BBC5} = {FED082F6-5CBB-476E-9CCF-D5CDAE09DF7C}
+	EndGlobalSection
+EndGlobal
