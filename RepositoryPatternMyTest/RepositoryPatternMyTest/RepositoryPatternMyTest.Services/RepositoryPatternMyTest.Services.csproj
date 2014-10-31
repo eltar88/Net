@@ -135,9 +135,17 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RepositoryPatternMyTest.Dto\RepositoryPatternMyTest.Dto.csproj">
+      <Project>{eba323a1-5b80-4bc8-8bb7-3587a5617c34}</Project>
+      <Name>RepositoryPatternMyTest.Dto</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
