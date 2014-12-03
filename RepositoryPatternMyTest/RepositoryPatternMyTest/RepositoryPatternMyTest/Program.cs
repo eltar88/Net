@@ -28,18 +28,15 @@ namespace RepositoryPatternMyTest
                 var rp = new Repository<Product, int>(factory.OpenSession());
 
 
-                var emp = new Employee();
-                emp.Name = new Name("test1111", "Test", "Test again");
+                var emp = new Employee {Name = new Name("test1111", "Test", "Test again")};
                 re.Add(emp);
 
 
-                var c = new Customer();
-                c.Address = new Address();
-                c.Address.City = "asdasdasd";
-                c.Address.ZipCode = "123";
-                c.Address.Line1 = "123";
-                c.Address.Line2 = "123";
-                c.Address.State = "123";
+                var c = new Customer
+                {
+                    Address =
+                        new Address {City = "asdasdasd", ZipCode = "123", Line1 = "123", Line2 = "123", State = "123"}
+                };
                 c.ChangeCustomerName("asd", "asd", "asd", "identif");
 
                 rc.Add(c);
@@ -84,8 +81,7 @@ namespace RepositoryPatternMyTest
 
         private static ISessionFactory CreateConfiguration()
         {
-            Configuration config;
-            config = Fluently.Configure()
+            Configuration config = Fluently.Configure()
                 .Database(
                     MsSqlConfiguration
                         .MsSql2008
